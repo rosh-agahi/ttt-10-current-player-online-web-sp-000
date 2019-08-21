@@ -3,6 +3,7 @@ def turn_count(board)
   turn_counter = board.each do |position| 
     occupied = occupied + position.length
   end
+  occupied
 end
 
 def current_player
