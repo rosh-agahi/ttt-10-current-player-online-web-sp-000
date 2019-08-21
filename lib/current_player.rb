@@ -8,12 +8,7 @@ def turn_count(board)
   occupied
 end
 
-def current_player(occupied)
-  occupied
-  if occupied % 2 == 0 
-    return "O"
-  else
-   return "X"
-  end
+def current_player
+  turn_count(board) % 2 == 0 ? "X" : "O"
 end
 
