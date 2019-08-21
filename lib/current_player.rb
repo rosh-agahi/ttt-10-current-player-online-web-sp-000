@@ -14,4 +14,5 @@ if occupied % 2 == 0
 else
   return "X"
 end
+end
 
