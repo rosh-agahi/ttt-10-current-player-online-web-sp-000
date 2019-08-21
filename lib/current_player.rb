@@ -9,10 +9,11 @@ def turn_count(board)
 end
 
 def current_player(occupied)
-if occupied % 2 == 0 
-  return "O"
-else
-  return "X"
-end
+  occupied
+  if occupied % 2 == 0 
+    return "O"
+  else
+   return "X"
+  end
 end
 
